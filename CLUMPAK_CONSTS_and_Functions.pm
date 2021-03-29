@@ -33,6 +33,7 @@ use constant IMAGES_TO_DISPLAY_LIST => "images_to_display.dat";
 use constant QSUB_JOB_NUM_FILE => "qsub_job_num.dat";
 use constant JOB_TYPE_FILE => "job_type.dat";
 use constant RESULTS_PAGE_URL => "/results.html";
+use constant DAILY_TESTS_DIR => "/bioseq/bioSequence_scripts_and_constants/daily_tests/";
 use constant VALID_INPUT_FILE_TYPES => {
 	'structure' => 'structure',
 	'admixture' => 'admixture',
@@ -72,6 +73,7 @@ use constant MAX_INDIVIDUALS_ALLOWED => 5000;
 #use constant PERL_MODULE_TO_LOAD => 'perl/perl518';   # On Jekyl
 #use constant PERL_MODULE_TO_LOAD => 'perl/perl-5.28.1'; # For Power
 use constant PERL_MODULE_TO_LOAD => 'perl/perl-5.28.1-clumpak'; # For POWER corrected by Josef
+use constant PYTHON_MODULE_TO_LOAD => 'python/python-3.6.7';
 use constant WEB_USERNAME => 'bioseq';
 
 ######### Functions ############
